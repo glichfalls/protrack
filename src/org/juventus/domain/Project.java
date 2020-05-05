@@ -1,6 +1,6 @@
 package org.juventus.domain;
 
-public class Project {
+public class Project implements Persistable {
 
     private int id;
     private String name;
@@ -22,7 +22,7 @@ public class Project {
         return id;
     }
 
-    private void setId(int id)
+    public void setId(int id)
     {
         this.id = id;
     }

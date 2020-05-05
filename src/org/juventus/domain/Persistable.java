@@ -2,6 +2,8 @@ package org.juventus.domain;
 
 public interface Persistable {
 
-    public int getId();
+    int getId();
+
+    void setId(int id);
 
 }

@@ -20,6 +20,11 @@ public class TimeRecord implements Persistable {
         return id;
     }
 
+    public void setId(int id)
+    {
+        this.id = id;
+    }
+
     public String getDescription()
     {
         return description;
