@@ -1,4 +1,4 @@
-package org.juventus.domain;
+package org.juventus.business.user;
 
 public class User {
 

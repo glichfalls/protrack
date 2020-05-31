@@ -1,6 +1,9 @@
-package org.juventus.domain;
+package org.juventus.business.task;
 
-public class Task implements Persistable {
+import org.juventus.business.record.TimeRecord;
+import org.juventus.business.user.User;
+
+public class Task {
 
     private int id;
     private String name;
